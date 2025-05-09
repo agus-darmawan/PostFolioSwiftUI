@@ -7,8 +7,8 @@
 
 import SwiftUI
 
-struct RegistrationView: View {
-    @StateObject var viewModal = RegistrationViewModel()
+struct RegisterView: View {
+    @StateObject var viewModal = RegisterViewModel()
     @Environment(\.dismiss) var dismiss
     var body: some View {
         VStack{
@@ -62,5 +62,5 @@ struct RegistrationView: View {
 }
 
 #Preview {
-    RegistrationView()
+    RegisterView()
 }

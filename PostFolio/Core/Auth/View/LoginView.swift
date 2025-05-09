@@ -50,7 +50,7 @@ struct LoginView: View {
                 
                 Divider()
                 NavigationLink {
-                    RegistrationView()
+                    RegisterView()
                         .navigationBarBackButtonHidden(true)
                 } label:{
                     HStack(spacing : 4) {
