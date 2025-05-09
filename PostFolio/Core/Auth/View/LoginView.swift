@@ -50,9 +50,8 @@ struct LoginView: View {
                 
                 Divider()
                 NavigationLink {
-//                    print("DEBUG : Navigate to Registration")
-//                    RegistrationView()
-//                        .navigationBarBackButtonHidden(true)
+                    RegistrationView()
+                        .navigationBarBackButtonHidden(true)
                 } label:{
                     HStack(spacing : 4) {
                         Text("Don't have an account?")
