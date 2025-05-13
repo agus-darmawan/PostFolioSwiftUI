@@ -5,7 +5,6 @@
 //  Created by Darmawan on 09/05/25.
 //
 
-
 import SwiftUI
 
 extension PreviewProvider {
@@ -20,9 +19,14 @@ class DeveloperPreview {
     let user = User(
         id: NSUUID().uuidString,
         fullname: "Agus Darmawan",
+        stats: [
+            "following": 100,
+            "followers": 251002001,
+            "likes": 290302913
+        ],
         email: "wayanagus.dr@gmmail.com",
         username: "agusdarmawn",
         profileImageUrl: "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250",
-        bio: "Lorm ipsum short description  Lorm ipsum short description"
+        bio: "Lorm ipsum short description Lorm ipsum short description"
     )
 }

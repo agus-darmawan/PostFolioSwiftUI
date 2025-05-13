@@ -19,7 +19,7 @@ enum ProfileImageSize{
     var dimension: CGFloat{
         switch self {
         case .xxSmall: return 28
-        case .xSmall: return 30
+        case .xSmall: return 32
         case .small: return 40
         case .medium: return 48
         case .large: return 68
@@ -50,6 +50,6 @@ struct CircularProfileImageView: View {
 
 struct CircularProfileImageView_Preview : PreviewProvider{
     static var previews: some View {
-        CircularProfileImageView(user: dev.user, size: .medium)
+        CircularProfileImageView(user: dev.user, size: .small)
     }
 }

@@ -10,6 +10,7 @@ import Foundation
 struct User: Identifiable, Codable, Hashable {
     let id: String
     let fullname: String
+    let stats: [String: Int]
     let email: String
     let username: String
     var profileImageUrl: String?
